@@ -1,1 +1,0 @@
-https://civitai.com/api/download/models/722389?type=Model&format=SafeTensor
