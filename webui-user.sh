@@ -4,13 +4,16 @@
 #########################################################
 
 # Install directory without trailing slash
-#install_dir="/home/$(whoami)"
+#install_dir="/Users/fukabooboo"
 
 # Name of the subdirectory
-#clone_dir="stable-diffusion-webui"
+#clone_dir="stable-diffusion-webui-forge"
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
-#export COMMANDLINE_ARGS=""
+#export COMMANDLINE_ARGS="--ckpt-dir /Users/fukabooboo/stable-diffusion-webui/models/Stable-diffusion \
+--hypernetwork-dir /Users/fukabooboo/stable-diffusion-webui/models/hypernetworks \
+--embeddings-dir /Users/fukabooboo/stable-diffusion-webui/embeddings \
+--lora-dir /Users/fukabooboo/stable-diffusion-webui/models/Lora"
 
 # python3 executable
 #python_cmd="python3"
